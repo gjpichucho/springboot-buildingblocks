@@ -16,7 +16,7 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Hello everyonee1";
 	}
-	
+	//
 	@GetMapping ("/helloworld-bean")
 	public UserDeatils helloWorldBean() {
 		return new UserDeatils("Galo", "Pichucho", "Quito");
